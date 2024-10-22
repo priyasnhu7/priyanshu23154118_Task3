@@ -1,7 +1,7 @@
 //board
-let tileSize = 32;
-let rows = 16;
-let columns = 16;
+let tileSize = 38;
+let rows = 18;
+let columns = 18;
 
 let board;
 let boardWidth = tileSize * columns; // 32 * 16
