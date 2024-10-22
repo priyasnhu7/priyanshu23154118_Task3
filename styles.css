@@ -1,8 +1,29 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    margin: 0; 
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
 #board {
     background-color: black;
+    width: 80%; 
+    height: 80vh; 
+    display: block; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+@media only screen and (max-width: 768px) {
+    #board {
+         width: 90%; 
+         height: 70vh; 
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    #board {
+         width: 95%; 
+         height: 50vh; 
+    }
 }
